@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: serif;
+}
+
+body {
+    background-color: rgb(20, 15, 15);
+}
+
+main {
+    height: 100vh;
+    max-width: 1300px;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    display: flex;
+}
+
+main .right-section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+main .right-section h1 {
+    height: 35%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 60px;
+    color: rgb(175, 175, 175);
+}
+
+main .right-section img {
+    height: 65%;
+    display: flex;
+}
+
+main .left-section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+main form {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    border: 5px solid rgb(200, 200, 200);
+    border-radius: 20px;
+}
+
+main form h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+main form label {
+    font-size: 25px;
+    display: block;
+}
+
+main form .textField {
+    margin-bottom: 10px;
+}
+
+main form input {
+    font-size: 20px;
+    display: block;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(175, 175, 175);
+    margin-bottom: 10px;
+}
+
+main form input[type="submit"] {
+    width: 50%;
+    font-size: 25px;
+    font-weight: bold;
+    display: block;
+    height: 60px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid rgb(175, 175, 175);
+    background-color: rgb(175, 175, 175);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: Arial;
+}
+
+main form input[type="submit"]:hover {
+    border: 1px solid rgb(255, 0, 0);
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    transition: .5s;
+}
